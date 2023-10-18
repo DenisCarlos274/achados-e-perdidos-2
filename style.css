@@ -1,0 +1,76 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e; /* Cor de fundo do cabeçalho escuro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #333; /* Cor da borda do cabeçalho */
+}
+
+h1 {
+    color: #fff; /* Cor do título clara */
+}
+
+/* Estilo do formulário de cadastro */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #1e1e1e; /* Cor de fundo do formulário escuro */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff; /* Cor do texto do rótulo clara */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333; /* Cor da borda do campo de entrada */
+    border-radius: 3px;
+    background-color: #333; /* Cor de fundo do campo de entrada */
+    color: #fff; /* Cor do texto do campo de entrada clara */
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do link para entrar em uma conta existente */
+button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #107a52a6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
